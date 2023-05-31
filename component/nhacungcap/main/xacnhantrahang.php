@@ -1,7 +1,7 @@
-                    <!--danh sach nhap hang  -->
-                    <div class="content_tab-list-item  ">
+<!-- Xác nhận trả hàng-->
+<div class="content_tab-list-item ">
                         <div class="content-header">
-                            <h4>Danh sách nhập hàng</h4>
+                            <h4>Danh sách hàng trả về</h4>
                         </div>
                         <table class="table">
                             <thead>
@@ -9,8 +9,8 @@
                                     <th scope="col">MHH</th>
                                     <th scope="col">HÌNH ẢNH</th>
                                     <th scope="col">TÊN HÀNG</th>
-                                    <th scope="col">NGÀY NHẬP</th>
-                                    <th scope="col">MNCC</th>
+                                    <th scope="col">NGÀY XUẤT</th>
+                                    <th scope="col">MÃ ĐẠI LÝ</th>
                                     <th scope="col">SỐ LƯỢNG</th>
                                     <th scope="col">MÃ DANH MỤC</th>
                                     <th scope="col">ĐƠN GIÁ</th>
@@ -125,7 +125,5 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="d-f">
-                            <button class="btn-add">Xác nhận</button>
-                        </div>
+                        <button class="btn-confirm">Xác nhận</button>
                     </div>

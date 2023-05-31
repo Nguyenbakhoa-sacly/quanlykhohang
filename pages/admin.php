@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Trang ADMIN</title> 
+    <title>ADMIN</title> 
 </head>
 <body>
     <div class="contain">

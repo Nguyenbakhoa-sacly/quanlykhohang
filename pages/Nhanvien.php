@@ -11,11 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/base.css"> 
-    <title>Trang Nhân viên </title>
+    <title>Kho hàng Đà Nẵng</title> 
 </head>
 <body>
     <div class="contain">
-        
         <!-- hader -->
         <?php 
             include("../component/nhanvien/header.php")
@@ -26,11 +25,9 @@
                     include("../component/nhanvien/menu.php")
                 ?>
                     <!-- conten -->
-                    
                 <?php 
                     include("../component/nhanvien/main.php")
                 ?>
-                
             </div>
     </div>
 

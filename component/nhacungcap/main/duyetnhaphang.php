@@ -1,5 +1,5 @@
-                    <!--danh sach nhap hang  -->
-                    <div class="content_tab-list-item  ">
+<!-- Duyệt nhập hàng -->
+<div class="content_tab-list-item action ">
                         <div class="content-header">
                             <h4>Danh sách nhập hàng</h4>
                         </div>
@@ -125,7 +125,5 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="d-f">
-                            <button class="btn-add">Xác nhận</button>
-                        </div>
+                        <button class="btn-confirm">Xác nhận</button>
                     </div>

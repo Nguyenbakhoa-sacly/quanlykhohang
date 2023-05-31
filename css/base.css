@@ -57,6 +57,9 @@
 .m-right{
     margin-right: 30px;
 }
+.m-left{
+    margin-left:80px !important;
+}
 .m-bottom{
     margin-bottom: 20px;
 }
@@ -74,19 +77,8 @@
     font-size: 12px;
     margin-left: 6px;
 }
+.d-f{
+    display: flex;
+    justify-content: end;
+}
 
-.btn-confirm{
-    color:#ffffff;
-    border: none;
-    border-radius: 8px;
-    width: 120px;
-    height: 40px;
-    transition: 0.3s;
-    background-color: #0F0D18;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-}
-.btn-confirm:hover {
-    box-shadow: 0 0 0 3px #444345;
-}

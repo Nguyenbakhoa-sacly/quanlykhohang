@@ -6,52 +6,55 @@
                         <div class="">
                             <div class="form-group">
                                 <div>
-                                    <form class="">
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Tên sản phẩm</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập tên..." required>
+                                <form>
+                                    <div class="form-group">
+                                        <div class="form-group-item" >
+                                            <div class="inputGroup">
+                                                <input type="text" required="" autocomplete="off">
+                                                <label for="name">Mã sản phẩm</label>
                                             </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Mã sản phảm</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã sản phẩm..." required>
+                                            <div class="inputGroup">
+                                                <input type="text" required="" autocomplete="off">
+                                                <label for="name">Tên sản phẩm</label>
+                                            </div>
+                                        </div>
+                                        <div  class="form-group-item">
+                                            <div class="inputGroup">
+                                                <input type="text" required="" autocomplete="off">
+                                                <label for="name">Mã yêu cầu</label>
+                                            </div>
+                                            <div class="inputGroup">
+                                                <input type="text" required="" autocomplete="off">
+                                                <label for="name">Mã trạng thái</label>
+                                            </div>
+                                        </div>
+                                        <div  class="form-group-item">
+                                            <div class="inputGroup">
+                                                <input type="text" required="" autocomplete="off">
+                                                <label for="name">Số lượng</label>
+                                            </div>
+                                            <div class="inputGroup">
+                                                <input type="text" required="" autocomplete="off">
+                                                <label for="name">Ghi chú</label>
+                                            </div>
+                                        </div>
+                        
+                                    </div>
+                                    <div>
+                                        <div class="input_img">
+                                            <div class="img-product">
+                                                <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
                                             </div>
                                             
                                         </div>
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Mã yêu cầu</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã yêu cầu..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Mã trạng thái</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã trạng thái..." required>
-                                            </div>
+                                        <div class="btn-left">
+                                            <button class="btn-add "> Làm mới </button>
+                                            <button class="btn-add"> Đề xuất </button>
+
                                         </div>
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Số lượng</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập số lượng..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Ghi chú</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập ghi chú..." required>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <button class="btn-confirm">Làm mới</button>
-    
-                                    <button class="btn-confirm">Đề xuất</button>
-    
-                                </div>
-                                <div class="">
-                                    <label for="validationDefault01" class="form-label">Hình ảnh</label>
-                                    <div class="img-product">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
                                     </div>
+                                </form>
                                     
-                                    
-                                
                                 </div>
                             </div>
                             <div class="scrollbar" id="style-1" >
