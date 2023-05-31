@@ -1,6 +1,8 @@
-  
-    <!-- Duyệt trả hàng -->
-    <div class="content_tab-list-item ">
+     <!-- Đề xuất trả hàng -->
+     <div class="content_tab-list-item ">
+                    <div class="content-header">
+                            <h4>Đề xuất trả hàng</h4>
+                    </div>
                         <div class="">
                             <div class="form-group">
                                 <div>
@@ -37,7 +39,10 @@
                                             </div>
                                         </div>
                                     </form>
-                                    
+                                    <button class="btn-confirm">Làm mới</button>
+    
+                                    <button class="btn-confirm">Đề xuất</button>
+    
                                 </div>
                                 <div class="">
                                     <label for="validationDefault01" class="form-label">Hình ảnh</label>
@@ -45,11 +50,13 @@
                                         <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
                                     </div>
                                     
+                                    
+                                
                                 </div>
                             </div>
                             <div class="scrollbar" id="style-1" >
-
                                 <table class="table scroll_table">
+                                
                                     <thead>
                                         <tr>
                                             <th scope="col">MÃ SẢN PHẨM</th>                           
@@ -71,10 +78,7 @@
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <td>
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -88,10 +92,7 @@
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <td>
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -105,10 +106,7 @@
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <td>
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -122,10 +120,7 @@
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <td>
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -139,78 +134,7 @@
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <td>
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -219,6 +143,5 @@
                                     </tbody>
                                 </table>
                             </div>
-    
                         </div>
                     </div>

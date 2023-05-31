@@ -1,5 +1,8 @@
-<!-- Yêu cầu nhập thêm hàng -->
-<div class="content_tab-list-item ">
+    <!-- xác nhận trả hàng -->
+    <div class="content_tab-list-item ">
+                        <div class="content-header">
+                            <h4>Xác nhận trả hàng</h4>
+                        </div>
                         <div class="">
                             <div class="form-group">
                                 <form class="">
@@ -45,6 +48,7 @@
                             </div>
                             <div class="scrollbar" id="style-1" >
                                 <table class="table scroll_table">
+                                
                                     <thead>
                                         <tr>
                                             <th scope="col">MÃ SẢN PHẨM</th>                           
@@ -65,10 +69,10 @@
                                             <td>TTC01</td>
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
-                                            <td>Đang chờ duyệt</td>
+                                            <td>Duyệt thành công</td>
                                             <td>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
+                                                <div class="btn-confirma">
+                                                    <button >Xác nhận</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -79,10 +83,10 @@
                                             <td>TTC01</td>
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
-                                            <td>Đang chờ duyệt</td>
+                                            <td>Duyệt thành công</td>
                                             <td>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
+                                                <div class="btn-confirma">
+                                                    <button >Xác nhận</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -93,10 +97,10 @@
                                             <td>TTC01</td>
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
-                                            <td>Đang chờ duyệt</td>
+                                            <td>Duyệt thành công</td>
                                             <td>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
+                                                <div class="btn-confirma">
+                                                    <button >Xác nhận</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -107,10 +111,10 @@
                                             <td>TTC01</td>
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
-                                            <td>Đang chờ duyệt</td>
+                                            <td>Duyệt thành công</td>
                                             <td>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
+                                                <div class="btn-confirma">
+                                                    <button >Xác nhận</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -121,16 +125,19 @@
                                             <td>TTC01</td>
                                             <td>300</td>
                                             <td>Hàng giao sai mẫu mã</td>
-                                            <td>Đang chờ duyệt</td>
+                                            <td>Duyệt thành công</td>
                                             <td>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
+                                                <div class="btn-confirma">
+                                                    <button >Xác nhận</button>
                                                 </div>
                                             </td>
                                         </tr>
         
                                     </tbody>
                                 </table>
+
                             </div>
+
+    
                         </div>
                     </div>

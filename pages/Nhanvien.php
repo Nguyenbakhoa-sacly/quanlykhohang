@@ -18,17 +18,17 @@
         
         <!-- hader -->
         <?php 
-            include("../nhanvien/header.php")
+            include("../component/nhanvien/header.php")
         ?>
             <div class="wrapper">
                 <!-- menu -->
                 <?php 
-                    include("../nhanvien/menu.php")
+                    include("../component/nhanvien/menu.php")
                 ?>
                     <!-- conten -->
                     
                 <?php 
-                    include("../nhanvien/main.php")
+                    include("../component/nhanvien/main.php")
                 ?>
                 
             </div>

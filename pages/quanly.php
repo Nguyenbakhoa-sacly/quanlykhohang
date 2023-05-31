@@ -17,19 +17,19 @@
     <div class="contain">
         <!-- header -->
         <?php 
-            include('../quanly/header.php')
+            include('../component/quanly/header.php')
         ?>
         
 
         <div class="wrapper">
             <!--menu  -->
             <?php 
-                include('../quanly/menu.php')
+                include('../component/quanly/menu.php')
             ?>
             
             <!-- main -->
             <?php 
-                include('../quanly/main.php')
+                include('../component/quanly/main.php')
             ?>
         </div>
     </div>

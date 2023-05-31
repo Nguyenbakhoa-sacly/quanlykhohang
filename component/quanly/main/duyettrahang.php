@@ -1,5 +1,9 @@
-                    <!-- Duyệt đề xuất trả hàng -->
-                    <div class="content_tab-list-item ">
+  
+    <!-- Duyệt trả hàng -->
+    <div class="content_tab-list-item ">
+    <div class="content-header">
+        <h4>Duyệt trả hàng</h4>
+    </div>
                         <div class="">
                             <div class="form-group">
                                 <div>

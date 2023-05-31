@@ -7,23 +7,23 @@
                             $tam ='';
                         }
                         if($tam == 'danhsachhanghoa'){
-                            include('../nhanvien/main/dshanghoa.php');
+                            include('../component/nhanvien/main/dshanghoa.php');
                         }else if($tam == 'danhsachnhaphang'){
-                            include('../nhanvien/main/dsnhaphang.php');
+                            include('../component/nhanvien/main/dsnhaphang.php');
                         }else if($tam == 'danhsachxuathang'){
-                            include('../nhanvien/main/dsxuathang.php');
+                            include('../component/nhanvien/main/dsxuathang.php');
                         }else if($tam == 'danhsachhangtrave'){
-                            include('../nhanvien/main/dshangtrave.php');
+                            include('../component/nhanvien/main/dshangtrave.php');
                         }else if($tam == 'lichsuxuathang'){
-                            include('../nhanvien/main/lichsuxuat.php');
+                            include('../component/nhanvien/main/lichsuxuat.php');
                         }else if($tam == 'lichsunhaphang'){
-                            include('../nhanvien/main/lichsunhap.php');
+                            include('../component/nhanvien/main/lichsunhap.php');
                         }else if($tam == 'hangtonkho'){
-                            include('../nhanvien/main/dstonkho.php');
+                            include('../component/nhanvien/main/dstonkho.php');
                         }else if($tam == 'xacnhantrahang'){
-                            include('../nhanvien/main/xacnhantrahang.php');
+                            include('../component/nhanvien/main/xacnhantrahang.php');
                         }else{
-                            include('../nhanvien/main/dexuattrahang.php');
+                            include('../component/nhanvien/main/dexuattrahang.php');
                         }
 
                     ?>
