@@ -125,5 +125,5 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <button class="btn-confirm">Xác nhận</button>
+                        <button class="btn-add">Xác nhận</button>
                     </div>

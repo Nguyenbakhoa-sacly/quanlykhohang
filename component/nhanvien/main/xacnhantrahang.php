@@ -75,9 +75,9 @@
                         <td>Hàng giao sai mẫu mã</td>
                         <td>Duyệt thành công</td>
                         <td>
-                            <div class="btn-confirma">
-                                <button >Xác nhận</button>
-                            </div>
+                            
+                                <button class="btn-confirma">Xác nhận</button>
+                            
                         </td>
                     </tr>
                     <tr>
@@ -89,9 +89,7 @@
                         <td>Hàng giao sai mẫu mã</td>
                         <td>Duyệt thành công</td>
                         <td>
-                            <div class="btn-confirma">
-                                <button >Xác nhận</button>
-                            </div>
+                        <button class="btn-confirma">Xác nhận</button>
                         </td>
                     </tr>
                     <tr>
@@ -103,9 +101,8 @@
                         <td>Hàng giao sai mẫu mã</td>
                         <td>Duyệt thành công</td>
                         <td>
-                            <div class="btn-confirma">
-                                <button >Xác nhận</button>
-                            </div>
+                        <button class="btn-confirma">Xác nhận</button>
+
                         </td>
                     </tr>
                     <tr>
@@ -117,9 +114,8 @@
                         <td>Hàng giao sai mẫu mã</td>
                         <td>Duyệt thành công</td>
                         <td>
-                            <div class="btn-confirma">
-                                <button >Xác nhận</button>
-                            </div>
+                        <button class="btn-confirma">Xác nhận</button>
+
                         </td>
                     </tr>
                     <tr>
@@ -131,9 +127,8 @@
                         <td>Hàng giao sai mẫu mã</td>
                         <td>Duyệt thành công</td>
                         <td>
-                            <div class="btn-confirma">
-                                <button >Xác nhận</button>
-                            </div>
+                        <button class="btn-confirma">Xác nhận</button>
+
                         </td>
                     </tr>
 

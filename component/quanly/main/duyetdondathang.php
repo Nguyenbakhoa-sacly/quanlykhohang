@@ -32,14 +32,11 @@
                                     <td>3.000.000</td>
 
                                     <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
+                                        <button class="btn-unconfimred">Xác nhận</button>
                                     </td>
                                     <!-- <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
+                                        <button class="btn-confirma">Đã xác nhận</button>
+                                        
                                     </td> -->
                                 </tr>
                                 <tr>
@@ -55,14 +52,10 @@
                                     <td>3.000.000</td>
 
                                     <!-- <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
+                                        <button class="btn-unconfimred">Xác nhận</button>
                                     </td> -->
                                     <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
+                                        <button class="btn-confirma">Đã xác nhận</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -78,14 +71,12 @@
                                     <td>3.000.000</td>
 
                                     <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
+                                    
+                                        <button class="btn-unconfimred">Xác nhận</button>
+                                    
                                     </td>
                                     <!-- <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
+                                        <button class="btn-confirma">Đã xác nhận</button>
                                     </td> -->
                                 </tr>
                                 <tr>
@@ -101,14 +92,11 @@
                                     <td>3.000.000</td>
 
                                     <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
+                                        <button class="btn-unconfimred">Xác nhận</button>
+                                    
                                     </td>
                                     <!-- <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
+                                        <button class="btn-confirma">Đã xác nhận</button>
                                     </td> -->
                                 </tr>
                                 <tr>
@@ -124,14 +112,11 @@
                                     <td>3.000.000</td>
 
                                     <!-- <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
+                                        <button class="btn-unconfimred">Xác nhận</button>
                                     </td> -->
                                     <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
+                                        <button class="btn-confirma">Đã xác nhận</button>
+
                                     </td>
                                 </tr>
 

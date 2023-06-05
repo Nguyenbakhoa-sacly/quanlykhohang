@@ -4,51 +4,42 @@
                             <h4>Duyệt đề xuất trả hàng</h4>
                         </div>
                         <div class="">
-                            <div class="form-group">
-                                <div>
-                                    <form class="">
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Tên sản phẩm</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập tên..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Mã sản phảm</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã sản phẩm..." required>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Mã yêu cầu</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã yêu cầu..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Mã trạng thái</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã trạng thái..." required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Số lượng</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập số lượng..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Ghi chú</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập ghi chú..." required>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    
-                                </div>
-                                <div class="">
-                                    <label for="validationDefault01" class="form-label">Hình ảnh</label>
-                                    <div class="img-product">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                                    </div>
-                                    
-                                </div>
-                            </div>
+                        <form>
+                <div class="form-group">
+                    <div class="form-group-item" >
+                        <div class="inputGroup">
+                            <input type="text" required="" autocomplete="off">
+                            <label for="name">Mã sản phẩm</label>
+                        </div>
+                        <div class="inputGroup">
+                            <input type="text" required="" autocomplete="off">
+                            <label for="name">Tên sản phẩm</label>
+                        </div>
+                    </div>
+                    <div  class="form-group-item">
+                        <div class="inputGroup">
+                            <input type="text" required="" autocomplete="off">
+                            <label for="name">Mã yêu cầu</label>
+                        </div>
+                        <div class="inputGroup">
+                            <input type="text" required="" autocomplete="off">
+                            <label for="name">Mã trạng thái</label>
+                        </div>
+                    </div>
+                    <div  class="form-group-item">
+                        <div class="inputGroup">
+                            <input type="text" required="" autocomplete="off">
+                            <label for="name">Số lượng</label>
+                        </div>
+                        <div class="inputGroup">
+                            <input type="text" required="" autocomplete="off">
+                            <label for="name">Ghi chú</label>
+                        </div>
+                    </div>
+    
+                </div>
+                
+            </form>
                             <div class="scrollbar" id="style-1" >
 
                                 <table class="table scroll_table">
@@ -74,9 +65,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -91,9 +81,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -108,9 +97,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -125,9 +113,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -142,9 +129,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -159,9 +145,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -176,9 +161,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -193,9 +177,8 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                            <button  class="btn-unconfimred">Xác nhận</button>
+
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>
@@ -210,9 +193,7 @@
                                             <td>Hàng giao sai mẫu mã</td>
                                             <td>Chờ duyệt</td>
                                             <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
+                                                <button  class="btn-unconfimred">Xác nhận</button>
                                                 <div class="btn-cancel">
                                                     <button >Hủy</button>
                                                 </div>

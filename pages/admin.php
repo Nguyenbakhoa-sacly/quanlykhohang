@@ -58,124 +58,131 @@
                     <div class="content_tab-list-item action ">
                         <div class="content_tab-list-input ">
                             <div class="form-group">
-                                <div>
-                                    <form class="">
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Tên tài khoản</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập tên..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Email</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập Email..." required>
-                                            </div>
-                                            
+                            <form>
+                                <div class="form-group">
+                                    <div class="form-group-item" >
+                                        <div class="inputGroup">
+                                            <input type="text" required="" autocomplete="off">
+                                            <label for="name">Mã sản phẩm</label>
                                         </div>
-                                        
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Quyền</label>
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected>--Chọn quyền--</option>
-                                                    <option value="1">Đại lý</option>
-                                                    <option value="2">Nhà cung cấp</option>
-                                                    
-                                                </select>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Họ và tên</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập họ và tên..." required>
-                                            </div>
+                                        <div class="inputGroup">
+                                            <input type="text" required="" autocomplete="off">
+                                            <label for="name">Tên sản phẩm</label>
                                         </div>
-                                    </form>
-                                    
+                                    </div>
+                                    <div  class="form-group-item">
+                                        <div class="inputGroup">
+                                            <input type="text" required="" autocomplete="off">
+                                            <label for="name">Mã yêu cầu</label>
+                                        </div>
+                                        <div class="inputGroup">
+                                            <input type="text" required="" autocomplete="off">
+                                            <label for="name">Mã trạng thái</label>
+                                        </div>
+                                    </div>
+                                    <div  class="form-group-item">
+                                        <div class="inputGroup">
+                                            <input type="text" required="" autocomplete="off">
+                                            <label for="name">Số lượng</label>
+                                        </div>
+                                        <div class="inputGroup">
+                                            <input type="text" required="" autocomplete="off">
+                                            <label for="name">Ghi chú</label>
+                                        </div>
+                                    </div>
+                    
                                 </div>
-                                
-                            </div>
-                            <div class="btn-Shared">
-                                <button >thêm</button>
-                            </div>
-                        </div>
-                        <div class="scrollbar" id="style-1">
-                            <table class="table scroll_table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">MÃ NHÂN VIÊN</th>
-                                        <th scope="col">EMAIL</th>
-                                        <th scope="col">HÌNH ẢNH</th>
-                                        <th scope="col">HỌ VÀ TÊN</th>
-                                        <th scope="col">THAO TÁC</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>nguenvana123</td>
-                                        <td>abc@gmail.com</td>
-                                        <td>Nhà cung cấp</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td class=" icon-operation">
-                                            <i class="fa-solid fa-pen-to-square"></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>nguenvana123</td>
-                                        <td>abc@gmail.com</td>
-                                        <td>Nhà cung cấp</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td class=" icon-operation">
-                                            <i class="fa-solid fa-pen-to-square"></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>nguenvana123</td>
-                                        <td>abc@gmail.com</td>
-                                        <td>Nhà cung cấp</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td class=" icon-operation">
-                                            <i class="fa-solid fa-pen-to-square"></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>nguenvana123</td>
-                                        <td>abc@gmail.com</td>
-                                        <td>Nhà cung cấp</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td class=" icon-operation">
-                                            <i class="fa-solid fa-pen-to-square"></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>nguenvana123</td>
-                                        <td>abc@gmail.com</td>
-                                        <td>Nhà cung cấp</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td class=" icon-operation">
-                                            <i class="fa-solid fa-pen-to-square"></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>nguenvana123</td>
-                                        <td>abc@gmail.com</td>
-                                        <td>Nhà cung cấp</td>
-                                        <td>Nguyễn Văn A</td>
-                                        <td class=" icon-operation">
-                                            <i class="fa-solid fa-pen-to-square"></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </td>
-                                    </tr>
-                                    
-                                </tbody>
-                            </table>
+                                <div>
+                                    <button class="btn-add m-top m-left" > Thêm </button>
+                                </div>
+                            </form>
+            
                         </div>
                     </div>
-                </div>
+                </div>   
             </div>
+                                
         </div>
+                            
     </div>
+    <div class="scrollbar" id="style-1">
+        <table class="table scroll_table">
+            <thead>
+                <tr>
+                    <th scope="col">MÃ NHÂN VIÊN</th>
+                    <th scope="col">EMAIL</th>
+                    <th scope="col">HÌNH ẢNH</th>
+                    <th scope="col">HỌ VÀ TÊN</th>
+                    <th scope="col">THAO TÁC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nguenvana123</td>
+                    <td>abc@gmail.com</td>
+                    <td>Nhà cung cấp</td>
+                    <td>Nguyễn Văn A</td>
+                    <td class=" icon-operation">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>nguenvana123</td>
+                    <td>abc@gmail.com</td>
+                    <td>Nhà cung cấp</td>
+                    <td>Nguyễn Văn A</td>
+                    <td class=" icon-operation">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>nguenvana123</td>
+                    <td>abc@gmail.com</td>
+                    <td>Nhà cung cấp</td>
+                    <td>Nguyễn Văn A</td>
+                    <td class=" icon-operation">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>nguenvana123</td>
+                    <td>abc@gmail.com</td>
+                    <td>Nhà cung cấp</td>
+                    <td>Nguyễn Văn A</td>
+                    <td class=" icon-operation">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>nguenvana123</td>
+                    <td>abc@gmail.com</td>
+                    <td>Nhà cung cấp</td>
+                    <td>Nguyễn Văn A</td>
+                    <td class=" icon-operation">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>nguenvana123</td>
+                    <td>abc@gmail.com</td>
+                    <td>Nhà cung cấp</td>
+                    <td>Nguyễn Văn A</td>
+                    <td class=" icon-operation">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+                    
+        
+    </div>
+</div>
 </body>
 </html>

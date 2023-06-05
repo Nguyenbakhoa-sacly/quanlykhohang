@@ -19,7 +19,31 @@
                                     <td>300</td>
                                     <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
                                 </tr>
-                                
+                                <tr>
+                                    <td>Bột giặt Omo</td>
+                                    <td>300</td>
+                                    <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Bột giặt Omo</td>
+                                    <td>300</td>
+                                    <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Bột giặt Omo</td>
+                                    <td>300</td>
+                                    <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Bột giặt Omo</td>
+                                    <td>300</td>
+                                    <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Bột giặt Omo</td>
+                                    <td>300</td>
+                                    <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>

@@ -60,6 +60,12 @@
 .m-left{
     margin-left:80px !important;
 }
+.m-left-a{
+    margin-left: 340px !important;
+}
+.m-top{
+    margin-top: 177px !important;
+}
 .m-bottom{
     margin-bottom: 20px;
 }

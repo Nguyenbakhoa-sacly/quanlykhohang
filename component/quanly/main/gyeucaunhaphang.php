@@ -26,7 +26,7 @@
                                     <td>300</td>
                                     <td>3.000.000</td>
                                     <td>
-                                        <div class="btn-confirma">
+                                        <div class="btn-cancel">
                                             <button >Gửi</button>
                                         </div>
                                     </td>
@@ -41,7 +41,7 @@
                                     <td>300</td>
                                     <td>3.000.000</td>
                                     <td>
-                                        <div class="btn-confirma">
+                                        <div class="btn-cancel">
                                             <button >Gửi</button>
                                         </div>
                                     </td>
@@ -56,7 +56,7 @@
                                     <td>300</td>
                                     <td>3.000.000</td>
                                     <td>
-                                        <div class="btn-confirma">
+                                        <div class="btn-cancel">
                                             <button >Gửi</button>
                                         </div>
                                     </td>
@@ -71,7 +71,7 @@
                                     <td>300</td>
                                     <td>3.000.000</td>
                                     <td>
-                                        <div class="btn-confirma">
+                                        <div class="btn-cancel">
                                             <button >Gửi</button>
                                         </div>
                                     </td>
@@ -86,7 +86,7 @@
                                     <td>300</td>
                                     <td>3.000.000</td>
                                     <td>
-                                        <div class="btn-confirma">
+                                        <div class="btn-cancel">
                                             <button >Gửi</button>
                                         </div>
                                     </td>
