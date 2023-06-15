@@ -1,212 +1,112 @@
-  
-    <!-- Duyệt trả hàng -->
-    <div class="content_tab-list-item ">
-    <div class="content-header">
-        <h4>Duyệt trả hàng</h4>
-    </div>
-    <div class="">
-        <div class="form-group">
-            <form>
-                <div class="form-group">
-                    <div class="form-group-item" >
-                        <div class="inputGroup">
-                            <input type="text" required="" autocomplete="off">
-                            <label for="name">Mã sản phẩm</label>
-                        </div>
-                        <div class="inputGroup">
-                            <input type="text" required="" autocomplete="off">
-                            <label for="name">Tên sản phẩm</label>
-                        </div>
-                    </div>
-                    <div  class="form-group-item">
-                        <div class="inputGroup">
-                            <input type="text" required="" autocomplete="off">
-                            <label for="name">Mã yêu cầu</label>
-                        </div>
-                        <div class="inputGroup">
-                            <input type="text" required="" autocomplete="off">
-                            <label for="name">Mã trạng thái</label>
-                        </div>
-                    </div>
-                    <div  class="form-group-item">
-                        <div class="inputGroup">
-                            <input type="text" required="" autocomplete="off">
-                            <label for="name">Số lượng</label>
-                        </div>
-                        <div class="inputGroup">
-                            <input type="text" required="" autocomplete="off">
-                            <label for="name">Ghi chú</label>
-                        </div>
-                    </div>
-    
-                </div>
-                <div>
-                    <div class="input_img">
-                        <div class="img-product">
-                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                        </div>
-                        
-                    </div>
-                        <button class="btn-add m-left" > Thêm </button>
-                </div>
-            </form>
-        </div>
-        <div class="scrollbar" id="style-1" >
+<?php include 'connect.php';
+    $sql = "SELECT * FROM `hoadontrahangxuat`";
 
-            <table class="table scroll_table">
-                <thead>
-                    <tr>
-                        <th scope="col">MÃ SẢN PHẨM</th>                           
-                        <th scope="col">TÊN SẢN PHẨM</th>
-                        <th scope="col">MÃ YÊU CẦU</th>
-                        <th scope="col">MÃ TRẠNG THÁI</th>
-                        <th scope="col">SỐ LƯỢNG</th>
-                        <th scope="col">GI CHÚ</th>
-                        <th scope="col">TRẠNG THÁI</th>
-                        <th scope="col">THAO TÁC</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                            
-                            <button class="btn-confirma">Xác nhận</button>
-                            
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">H001</th>
-                        <td>Bột giặt Omo</td>
-                        <td>YC001</td>
-                        <td>TTC01</td>
-                        <td>300</td>
-                        <td>Hàng giao sai mẫu mã</td>
-                        <td>Chờ duyệt</td>
-                        <td class="d-flex">
-                        <button class="btn-confirma">Xác nhận</button>
-                            <div class="btn-cancel">
-                                <button >Hủy</button>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    $sql1 = "SELECT * FROM `chitiethoadontrahangxuat`";
 
-    </div>
-</div>
+    //Chạy câu SQL
+    $result = $con->query($sql);
+
+    $result1 = $con->query($sql1);
+
+    $data = [];
+    $data1 = [];
+    $data_merge = [];
+    if ($result->num_rows > 0 && $result1->num_rows > 0) {
+        //Gắn dữ liệu lấy được vào mảng $data
+        while ($row = $result->fetch_assoc()) {
+            $data[] = $row;
+        }
+
+        while ($row1 = $result1->fetch_assoc()) {
+            $data1[] = $row1;
+        }
+    }
+
+    $data_merge = $data;
+
+    for ($i=0; $i < count($data); $i++) { 
+        $data_merge[$i]['maSP'] = $data1[$i]['maSP'];
+        $data_merge[$i]['soLuong'] = $data1[$i]['soLuong'];
+        $data_merge[$i]['ghiChu'] = $data1[$i]['ghiChu'];
+        $data_merge[$i]['tinhTrang'] = $data1[$i]['tinhTrang'];
+    }
+
+    // $data_merge = array_merge($data, $data1);
+    // echo "<pre>";
+    // print_r($data_merge);
+    // echo "<pre>";
+    // print_r($data);
+    // echo "<pre>";
+    // print_r($data1);
+
+    $path = '../images/imgsp/';
+    $html ="";
+    foreach ($data_merge as $value) {
+        $html .= '
+                <tr>
+                    <th scope="row">'.$value['maSP'].'</td>
+                    <td>'.$value['maDL'].'</td>
+                    <td class="content_table-list-item" >'.'<img src= "'.$path.$value['hinhAnh'].'" alt=""/>'.'</td>
+                    <td>'.$value['soLuong'].'</td>
+                    <td>'.$value['ghiChu'].'</td>
+
+                    <td>'.$value['tinhTrang'].'</td>
+                    <td >
+                        <input type="checkbox" name="maTHX[]" value="'.$value['maTHX'].'" class="product_choose_type_input">
+                    </td>               
+                </tr>';
+    }
+
+    if(isset($_POST['OK'])){
+        $xx = 1;
+        $checkbox=$_POST['maTHX'];
+        // echo "<pre>";
+        // print_r($checkbox);
+        foreach ($checkbox as $key => $value) {
+            $sql = "UPDATE chitiethoadontrahangxuat SET 
+            `tinhTrang`='".'Đã duyệt'."' 
+            WHERE maTHX = ".$value;
+            //Chạy câu SQL
+            if ($result = $con->query($sql)) {
+                echo "<h1>Duyệt đơn trả hàng ".$value." thành công</h1>";
+            }else{
+                echo "<h1>Duyệt đơn trả hàng ".$value." không thành công</h1>";
+            }
+        } 
+    } 
+?>  
+                            <!-- Duyệt trả hàng -->
+                            <div class="content_tab-list-item ">
+                            <div class="content-header">
+                                <h4>Duyệt trả hàng</h4>
+                            </div>
+                            <div class="">
+                                
+                                <div class="scrollbar" id="style-1" >
+                            <form method="POST">
+                                    <table class="table scroll_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">MÃ SẢN PHẨM</th>                           
+                                                <!-- <th scope="col">TÊN SẢN PHẨM</th>
+                                                <th scope="col">MÃ YÊU CẦU</th> -->
+                                                <th scope="col">MÃ ĐẠI LÝ</th>
+                                                <th scope="col">HÌNH ẢNH</th>
+                                                <th scope="col">SỐ LƯỢNG</th>
+                                                <th scope="col">GHI CHÚ</th>
+                                                <th scope="col">TRẠNG THÁI</th>
+                                                <th scope="col">THAO TÁC</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php echo $html;?>
+                                        </tbody>
+                                    </table>
+                                <div class="d-f">
+                                    <button class="btn-add" name="OK">Xác nhận</button>
+                                </div>
+                            </form>
+                                </div>
+
+                            </div>
+                            </div>

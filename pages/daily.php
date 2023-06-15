@@ -14,18 +14,22 @@
 </head>
 <body>
     <div class="contain">
+
         <?php 
-            include ('../component/daily/header.php')
+            include ('../component/daily/header.php');
         ?>
 
         <div class="wrapper">
-            <?php 
+            <?php
+
                 include ('../component/daily/menu.php')
             ?>
-            <?php 
+            <?php
+                // include 'connect.php'; 
                 include ('../component/daily/main.php')
             ?>
             
+
         </div>
     </div>
 
